@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Camada de Apresentação", "1 - Camada de Apresentação", "{73EC5A14-05C2-424D-B5CA-280987489768}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Camada de Regras de Negócio", "2 - Camada de Regras de Negócio", "{AA3E7D50-36EE-4C6B-83EE-1E8AFEDDD4C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Camada de Acesso a Dados", "3 - Camada de Acesso a Dados", "{79781E27-C6C7-47BC-A206-6BE156CCCDF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.PresentationLayer", "Projeto.PresentationLayer\Projeto.PresentationLayer.csproj", "{20AEBAF7-9663-47F4-A3A2-A2A60FFB33AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20AEBAF7-9663-47F4-A3A2-A2A60FFB33AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20AEBAF7-9663-47F4-A3A2-A2A60FFB33AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20AEBAF7-9663-47F4-A3A2-A2A60FFB33AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20AEBAF7-9663-47F4-A3A2-A2A60FFB33AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20AEBAF7-9663-47F4-A3A2-A2A60FFB33AE} = {73EC5A14-05C2-424D-B5CA-280987489768}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A08981FB-EBAF-4F3F-9E61-DF08C9301962}
+	EndGlobalSection
+EndGlobal
