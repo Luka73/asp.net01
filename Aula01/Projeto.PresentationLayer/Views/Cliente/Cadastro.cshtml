@@ -1,0 +1,39 @@
+﻿@model Projeto.PresentationLayer.Models.ClienteCadastroViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cadastro</title>
+</head>
+<body>
+    <div> 
+        <h2>Formulário de Cadastro</h2>
+        <a href="Home/Index">Página Inicial</a>
+        <hr />
+
+        @using (Html.BeginForm("CadastroCliente", "Cliente", FormMethod.Post))
+        {
+            <div style="color:#ff0000">
+                @Html.ValidationSummary()
+            </div>
+            <br />
+
+            <label>Informe o nome do Cliente: </label><br />
+            @Html.TextBoxFor(model => model.Nome)
+            <br /><br />
+
+            <label>Informe o email do Cliente </label><br />
+            @Html.TextBoxFor(model => model.Email)
+            <br /><br />
+
+            <input type="submit" value="Cadastrar Cliente" />
+        }
+    </div>
+</body>
+</html>

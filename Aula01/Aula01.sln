@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Camada de Acesso a Dado
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.PresentationLayer", "Projeto.PresentationLayer\Projeto.PresentationLayer.csproj", "{20AEBAF7-9663-47F4-A3A2-A2A60FFB33AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.DataLayer", "Projeto.DataLayer\Projeto.DataLayer.csproj", "{BACE183C-B650-4208-92AE-47AF698D1FED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +23,17 @@ Global
 		{20AEBAF7-9663-47F4-A3A2-A2A60FFB33AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20AEBAF7-9663-47F4-A3A2-A2A60FFB33AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20AEBAF7-9663-47F4-A3A2-A2A60FFB33AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BACE183C-B650-4208-92AE-47AF698D1FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACE183C-B650-4208-92AE-47AF698D1FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACE183C-B650-4208-92AE-47AF698D1FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BACE183C-B650-4208-92AE-47AF698D1FED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{20AEBAF7-9663-47F4-A3A2-A2A60FFB33AE} = {73EC5A14-05C2-424D-B5CA-280987489768}
+		{BACE183C-B650-4208-92AE-47AF698D1FED} = {79781E27-C6C7-47BC-A206-6BE156CCCDF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A08981FB-EBAF-4F3F-9E61-DF08C9301962}
