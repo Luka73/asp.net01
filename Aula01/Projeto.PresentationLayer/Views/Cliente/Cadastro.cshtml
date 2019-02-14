@@ -17,7 +17,7 @@
         <a href="Home/Index">Página Inicial</a>
         <hr />
 
-        @using (Html.BeginForm("CadastroCliente", "Cliente", FormMethod.Post))
+        @using (Html.BeginForm("CadastrarCLiente", "Cliente", FormMethod.Post))
         {
             <div style="color:#ff0000">
                 @Html.ValidationSummary()
@@ -33,6 +33,9 @@
             <br /><br />
 
             <input type="submit" value="Cadastrar Cliente" />
+            <br /><br />
+
+            @ViewBag.Mensagem
         }
     </div>
 </body>

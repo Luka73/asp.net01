@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Projeto.DataLayer.Entities;
+using System.Data.SqlClient;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.SqlClient;
-using Projeto.DataLayer.Entities;
 
 namespace Projeto.DataLayer.Repositories
 {
@@ -12,8 +12,8 @@ namespace Projeto.DataLayer.Repositories
     {
         public void Inserir(Cliente cliente)
         {
-            string query = "inserto into Cliente(Nome, Email, DataCadastro) " +
-                "values(@Nome, @Email, @DataCadastro)";
+            string query = "insert into Cliente (Nome, Email, DataCadastro) values " +
+                "(@Nome, @Email, @DataCadastro)";
 
             Command = new SqlCommand(query, Connection);
             Command.Parameters.AddWithValue("@Nome", cliente.Nome);

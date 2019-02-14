@@ -117,7 +117,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Projeto.BusinessLayer\Projeto.BusinessLayer.csproj">
+      <Project>{9ee93d4e-ba33-44cc-9ada-58a3725bcffc}</Project>
+      <Name>Projeto.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Projeto.DataLayer\Projeto.DataLayer.csproj">
+      <Project>{d3a7aad0-567b-4d0b-9473-54dab88bfeb7}</Project>
+      <Name>Projeto.DataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
